@@ -1,0 +1,78 @@
+/* The corner */
+.corner {
+  position: fixed;
+  display: block;
+  height: 2.9%;
+  width: 1.5%;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  background-color: blue;
+}
+
+/* Base nav */
+.nav {
+  transition: height ease .5s;
+  transition: width ease .5s;
+  top: 0px;
+  left: 0px;
+}
+
+/* Default nav (verticle) */
+.ver-nav {
+  position: fixed;
+  margin-top: 2.5%;
+  padding: 10px;
+  height: 100%;
+  width: 1.5%;
+  background-color: navy;
+}
+
+/* Alternate nav (horizontal) */
+.hor-nav {
+  position: fixed;
+  margin-left: 2.5%;
+  padding: 10px;
+  height: 2.9%;
+  width: 100%;
+  background-color: navy;
+}
+
+.fluid-body {
+  position: relative;
+  height: 100%;
+  width: 97.5%;
+  transition: margin-left ease .5s;
+  transition: margin-top ease .5s;
+}
+
+.fluid-body.top {
+  margin-top: 50px;
+}
+
+.fluid-body.left {
+  margin-top: -16px;
+  margin-left: 45px;
+  margin-right: 10px;
+  padding-right: 10px;
+}
+
+.rotated {
+  transform: rotate(90deg);
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+i.change {
+  color: white;
+}
+
+i.change:hover {
+  color: gray;
+  cursor: context-menu;
+  transition: ease .5s;
+}
