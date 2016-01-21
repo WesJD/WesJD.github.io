@@ -2,39 +2,41 @@
 .corner {
   position: fixed;
   display: block;
-  height: 2.9%;
-  width: 1.5%;
+  height: 2.5%;
+  width: 1.2%;
   top: 0;
   left: 0;
   padding: 10px;
-  background-color: blue;
+  background-color: #2F97BF;
+  box-shadow: 2px 2px .5px gray;
 }
 
 /* Base nav */
 #nav {
   top: 0px;
   left: 0px;
+  box-shadow: 2px 2px .5px gray;
 }
 
 /* Default nav (verticle) */
 .ver-nav {
   position: fixed;
-  margin-top: 2.5%;
+  margin-top: 2.3%;
   padding: 10px;
-  width: 1.5%;
+  width: 1.2%;
   height: 100%;
-  background-color: navy;
+  background-color: #1F657F;
   transition: height ease .5s;
 }
 
 /* Alternate nav (horizontal) */
 .hor-nav {
   position: fixed;
-  margin-left: 2.5%;
+  margin-left: 2.2%;
   padding: 10px;
-  height: 2.9%;
+  height: 2.5%;
   width: 100%;
-  background-color: navy;
+  background-color: #1F657F;
   transition: width ease .5s;
 }
 
