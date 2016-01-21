@@ -1,9 +1,5 @@
 var lastChange;
 
-var marginValues = [
-  "2.5%" //vertical
-];
-
 //onReady function
 $(document).ready(function() {
   toggleClazz("body div#hor", "hor-nav");
