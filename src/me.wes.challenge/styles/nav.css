@@ -11,9 +11,7 @@
 }
 
 /* Base nav */
-.nav {
-  transition: height ease .5s;
-  transition: width ease .5s;
+#nav {
   top: 0px;
   left: 0px;
 }
@@ -23,9 +21,10 @@
   position: fixed;
   margin-top: 2.5%;
   padding: 10px;
-  height: 100%;
   width: 1.5%;
+  height: 100%;
   background-color: navy;
+  transition: height ease .5s;
 }
 
 /* Alternate nav (horizontal) */
@@ -36,14 +35,15 @@
   height: 2.9%;
   width: 100%;
   background-color: navy;
+  transition: width ease .5s;
 }
 
 .fluid-body {
   position: relative;
   height: 100%;
   width: 97.5%;
-  transition: margin-left ease .5s;
-  transition: margin-top ease .5s;
+  transition: margin-left ease .1s;
+  transition: margin-top ease .1s;
 }
 
 .fluid-body.top {

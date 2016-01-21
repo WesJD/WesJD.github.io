@@ -1,5 +1,9 @@
 var lastChange;
 
+var marginValues = [
+  "2.5%" //vertical
+];
+
 //onReady function
 $(document).ready(function() {
   toggleClazz("body div#hor", "hor-nav");
@@ -9,8 +13,8 @@ $(document).ready(function() {
   $("body div.corner i.change").on("click", function() {
     if(lastChange != null ? new Date().getTime() - lastChange >= 500 : true) {
       //change navs
-      toggleClazz("body div#hor", "hor-nav");
-      toggleClazz("body div#ver", "ver-nav");
+      toggleClazz("body div#nav", "hor-nav");
+      toggleClazz("body div#nav", "ver-nav");
 
       //change the body's margins
       toggleClazz("body div.fluid-body", "top");
