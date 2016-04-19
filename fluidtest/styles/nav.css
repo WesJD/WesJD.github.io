@@ -29,6 +29,10 @@
   transition: height ease .5s;
 }
 
+.ver-nav.closing {
+  height: 0%;
+}
+
 /* Alternate nav (horizontal) */
 .hor-nav {
   position: fixed;
@@ -38,6 +42,10 @@
   width: 100%;
   background-color: #1F657F;
   transition: width ease .5s;
+}
+
+.hor-nav.closing {
+  width: 0%;
 }
 
 .fluid-body {

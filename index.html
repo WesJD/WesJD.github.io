@@ -1,45 +1,38 @@
-<!DOCTYPE html>
 <html>
-    <head>
-        <!-- Scripts -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script src="js/nav.js"></script>
+  <head>
+    <title>WesJD - Home</title>
 
-        <!-- Stylesheets -->
-        <link rel=stylesheet type=text/css href="styles/nav.css" />
-        <link rel=stylesheet type=text/css href="styles/main.css" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
-        <title>BuildStatic Development</title>
-    </head>
-    <body>
-      <!-- Our corner (where we keep the change icon) -->
-      <div class="corner">
-        <i class="material-icons rotated change">swap_vertical_circle</i>
-      </div>
-
-      <!-- Dynamic nav divison -->
-      <div class="ver-nav" id="nav">
-        <ul>
-          <li>YO</li>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link href="styles/main.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#" style="padding-top: 2%"><img alt="Brand" src="repo/images/name-simple-small-cropped.png"></a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="downloads/index.html">Downloads</a></li>
         </ul>
       </div>
+    </nav>
 
-      <!-- Our actual body -->
-      <div class="fluid-body left top">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id vulputate massa. Ut posuere feugiat vehicula. Vestibulum ac ipsum magna. Etiam venenatis at neque ut porta. Etiam eu lorem augue. Cras orci augue, maximus ac posuere in, porttitor sed metus. Pellentesque imperdiet sagittis mattis. Morbi malesuada nunc velit, non luctus ligula molestie eu. Sed sit amet sem efficitur odio gravida convallis in lacinia ante. Proin in posuere odio, non tincidunt quam. Vivamus tincidunt, quam consectetur sagittis bibendum, mi erat congue arcu, vitae cursus magna sapien posuere tortor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum cursus, urna at maximus pellentesque, metus dui imperdiet tortor, in iaculis libero mi id arcu. Maecenas placerat a arcu vel feugiat. Praesent iaculis quis magna a tristique.
-        <br />
-        <br />
-        Suspendisse potenti. Proin nec augue in dolor dignissim luctus. Fusce purus elit, luctus et viverra eu, ultricies vel odio. Pellentesque accumsan nisl eu velit lacinia pretium. Maecenas vel tellus eget nulla hendrerit consequat. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed eget sapien eros. Donec tristique magna tortor, sit amet accumsan est commodo et. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc felis tellus, suscipit sed nisi tincidunt, porta maximus lacus.
-        <br />
-        <br />
-        Quisque eu aliquet ligula, condimentum mattis mi. Nam fringilla eget purus et dictum. Donec commodo ultrices sapien, nec tincidunt nibh dictum feugiat. Etiam nunc massa, lacinia vel purus vitae, facilisis semper nisi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam erat volutpat. Cras et magna pellentesque, aliquet metus quis, elementum sem. Quisque sapien nisl, bibendum vitae ligula ut, elementum dictum lacus. Donec est erat, fermentum ut interdum in, molestie vitae lacus. Phasellus fermentum sagittis neque, hendrerit condimentum leo rutrum ac. Praesent iaculis diam a metus congue, quis interdum erat suscipit. Donec leo arcu, vestibulum ac laoreet eu, volutpat in nulla.
-        <br />
-        <br />
-        Curabitur nisl mauris, sodales eu ligula sit amet, auctor maximus urna. Ut vel diam nec orci commodo tempus. Phasellus ullamcorper nisi orci, in tincidunt erat ultrices tristique. Nunc ut ipsum ac ex aliquet pharetra non nec leo. Nam ornare nulla et malesuada luctus. Quisque semper lorem turpis, ut consequat ex molestie quis. Praesent in lectus consequat, ullamcorper nibh suscipit, consectetur justo. Sed convallis id sapien eget pellentesque. Vivamus quis risus lobortis dolor placerat dignissim sed non ipsum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris condimentum massa nec purus sagittis iaculis. Nunc ullamcorper dapibus nibh, ut auctor augue faucibus ac. Sed at consequat urna, a commodo mauris.
-        <br />
-        <br />
-        Nulla rutrum, erat sed eleifend egestas, urna urna pellentesque velit, eu tempus neque diam eu risus. Proin convallis in justo at pellentesque. Ut luctus dui ut nisi imperdiet, et consequat felis cursus. Curabitur varius nisl et auctor malesuada. Duis at quam et diam luctus luctus sit amet sit amet nisi. Maecenas ultrices nisl lectus, at interdum erat pulvinar vitae. Suspendisse porta purus nec lacus laoreet, in vulputate tellus pretium. Integer condimentum purus purus, eu pretium erat luctus non. Nunc sit amet convallis magna, sit amet rutrum mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies arcu massa, vitae fermentum elit faucibus id. </p>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Welcome</h1>
+        <p>Hi there, I'm WesJD. You can check out various project info on this site or stalk me on various services.</p>
+        <a href="http://github.com/WesJD"><span class="label label-default"><i class="fa fa-github" aria-hidden="true"></i> GitHub</span></a>
+        <a href="http://wesjd.enjin.com/profile/7142730"><span class="label label-primary"><i class="fa fa-share" aria-hidden="true"></i> Enjin</span></a>
+        <a href="http://twitter.com/WesJD_"><span class="label label-info"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</span></a>
+        <a href="http://twitch.tv/WesJD_"><span class="label" style="background-color: #563D7C; border-color: #563D7C;"><i class="fa fa-twitch" aria-hidden="true"></i> Twitch</span></a>
+        <a href="http://youtube.com/thewesjd"><span class="label label-danger"><i class="fa fa-youtube-play" aria-hidden="true"></i> YouTube</span></a>
+        <a href="http://soundcloud.com/wesjd"><span class="label label-warning"><i class="fa fa-soundcloud" aria-hidden="true"></i> SoundCloud</span></a>
       </div>
-    </body>
+    </div>
+  </body>
 </html>

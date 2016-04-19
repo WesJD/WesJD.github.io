@@ -8,6 +8,9 @@ $(document).ready(function() {
   //handle the span click
   $("body div.corner i.change").on("click", function() {
     if(lastChange != null ? new Date().getTime() - lastChange >= 500 : true) {
+      //closing animation magick
+
+
       //change navs
       toggleClazz("body div#nav", "hor-nav");
       toggleClazz("body div#nav", "ver-nav");
