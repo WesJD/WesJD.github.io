@@ -1,2 +1,2 @@
 # WesJD.github.io
-My GitHub pages site. Hosts downloads and allows for limited experimental projects. 
+My old GitHub pages site. It now just redirects to my actual one.
